@@ -1,0 +1,23 @@
+{
+  "Name": "Foo",
+  "Age": 123,
+  "IsHuman": false,
+  "Tags": [
+    "robot",
+    "ai",
+    "replicator",
+    42
+  ],
+  "Inventory": {
+    "Slots": 10,
+    "Weight": 1.7,
+    "Items": [
+      {
+        "Name": "Burner"
+      },
+      {
+        "Name": "Lightsaber"
+      }
+    ]
+  }
+}

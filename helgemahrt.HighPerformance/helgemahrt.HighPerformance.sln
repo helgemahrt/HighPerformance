@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helgemahrt.HighPerformance", "helgemahrt.HighPerformance\helgemahrt.HighPerformance.csproj", "{7297E17F-9663-4761-AC1C-2A74F995FF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helgemahrt.HighPerformance.UnitTests", "helgemahrt.HighPerformance.UnitTests\helgemahrt.HighPerformance.UnitTests.csproj", "{4E440BC1-AF49-4C6F-9B15-958E0F8BC757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7297E17F-9663-4761-AC1C-2A74F995FF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7297E17F-9663-4761-AC1C-2A74F995FF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7297E17F-9663-4761-AC1C-2A74F995FF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7297E17F-9663-4761-AC1C-2A74F995FF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E440BC1-AF49-4C6F-9B15-958E0F8BC757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E440BC1-AF49-4C6F-9B15-958E0F8BC757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E440BC1-AF49-4C6F-9B15-958E0F8BC757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E440BC1-AF49-4C6F-9B15-958E0F8BC757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9C1567-7ED7-4469-9F46-29B18157B7B3}
+	EndGlobalSection
+EndGlobal
