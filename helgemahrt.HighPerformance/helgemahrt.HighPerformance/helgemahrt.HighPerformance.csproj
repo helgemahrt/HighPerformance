@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Helge Mahrt</Authors>
+    <Description>High performance .NET Core utility classes</Description>
+    <PackageProjectUrl>https://github.com/helgemahrt/HighPerformance</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/helgemahrt/HighPerformance</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>netcore, span, readonlyspan, stackalloc, parsing, string, json</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
