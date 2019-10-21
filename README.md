@@ -109,6 +109,7 @@ Intel Core i7-8650U CPU 1.90GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 |      FileSplit_ArrayPool_HighPerfomance |     622.417 us |    12.2836 us |    28.9540 us |   500.0000 | 499.0234 | 499.0234 |   4194904 B |
 
 22635 json messages in one file:
+
 |                                  Method |           Mean |         Error |        StdDev |      Gen 0 |    Gen 1 |    Gen 2 |   Allocated |
 |---------------------------------------- |---------------:|--------------:|--------------:|-----------:|---------:|---------:|------------:|
 |     ParseJsonFile_Stack_HighPerformance |  75,052.543 us |   867.9181 us |   811.8511 us |          - |        - |        - |       600 B |
