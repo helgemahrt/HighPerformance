@@ -99,17 +99,17 @@ Intel Core i7-8650U CPU 1.90GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
 ```
 |                                  Method |           Mean |         Error |        StdDev |      Gen 0 |    Gen 1 |    Gen 2 |   Allocated |
 |---------------------------------------- |---------------:|--------------:|--------------:|-----------:|---------:|---------:|------------:|
-|             StringSplit_HighPerformance |       8.660 us |     0.3577 us |      1.038 us |          - |        - |        - |        24 B |
-|                      StringSplit_DotNet |      24.122 us |     0.7960 us |      2.322 us |     5.0964 |        - |        - |     21432 B |
+|             StringSplit_HighPerformance |       6.794 us |     0.1325 us |     0.1676 us |          - |        - |        - |        24 B |
+|                      StringSplit_DotNet |      14.982 us |     0.2488 us |     0.1943 us |     5.0964 |        - |        - |     21432 B |
 
 |                                  Method |           Mean |         Error |        StdDev |      Gen 0 |    Gen 1 |    Gen 2 |   Allocated |
 |---------------------------------------- |---------------:|--------------:|--------------:|-----------:|---------:|---------:|------------:|
-|          FileSplit_Stack_HighPerfomance |     427.712 us |     8.5323 us |      8.380 us |          - |        - |        - |       576 B |
-|                        FileSplit_DotNet |     630.402 us |    12.4553 us |     25.722 us |    85.9375 |        - |        - |    364288 B |
-|      FileSplit_ArrayPool_HighPerfomance |   1,082.128 us |    22.2175 us |     57.746 us |   498.0469 | 498.0469 | 498.0469 |   4194904 B |
+|          FileSplit_Stack_HighPerfomance |     197.661 us |     3.6924 us |     3.0833 us |          - |        - |        - |       576 B |
+|                        FileSplit_DotNet |     360.602 us |     2.2140 us |     1.9627 us |    86.4258 |        - |        - |    364288 B |
+|      FileSplit_ArrayPool_HighPerfomance |     622.417 us |    12.2836 us |    28.9540 us |   500.0000 | 499.0234 | 499.0234 |   4194904 B |
 
 |                                  Method |           Mean |         Error |        StdDev |      Gen 0 |    Gen 1 |    Gen 2 |   Allocated |
 |---------------------------------------- |---------------:|--------------:|--------------:|-----------:|---------:|---------:|------------:|
-|     ParseJsonFile_Stack_HighPerformance |     300.905 us |     3.8917 us |      3.450 us |          - |        - |        - |       576 B |
-| ParseJsonFile_ArrayPool_HighPerformance |   1,076.529 us |    21.4944 us |     51.499 us |   457.0313 | 457.0313 | 457.0313 |   4195306 B |
-|            ParseJsonFile_NewtonsoftJson | 249,141.393 us | 6,172.4109 us | 18,199.493 us | 25000.0000 |        - |        - | 106397240 B |
+|     ParseJsonFile_Stack_HighPerformance |  75,052.543 us |   867.9181 us |   811.8511 us |          - |        - |        - |       600 B |
+| ParseJsonFile_ArrayPool_HighPerformance |  76,599.063 us | 1,515.4515 us | 2,447.1717 us |   333.3333 | 333.3333 | 333.3333 |   4194928 B |
+|            ParseJsonFile_NewtonsoftJson | 199,978.880 us | 2,099.2455 us | 1,963.6355 us | 25000.0000 |        - |        - | 106397240 B |
