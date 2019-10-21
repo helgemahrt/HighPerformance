@@ -89,7 +89,6 @@ namespace helgemahrt.HighPerformance.Json
             {
                 // seek closing ,
                 int startIndex = CurrentIndex;
-                int lastIndexWithValue = startIndex;
                 while (!IsPropertyValueEnd(jsonString[CurrentIndex++])) { }
                 return (startIndex, CurrentIndex - startIndex - 1);
             }
@@ -102,7 +101,9 @@ namespace helgemahrt.HighPerformance.Json
                 value == ' ' ||
                 value == '\t' ||
                 value == '\n' ||
-                value == '\r';
+                value == '\r' ||
+                value == ']' ||
+                value == '}';
         }
 
         private (int, int) GetQuotationContent(ReadOnlySpan<char> jsonString)
